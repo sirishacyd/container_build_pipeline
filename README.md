@@ -24,6 +24,7 @@
  
      ```
 ![build](screenshots/build.png)
+![image](screenshots/image.png)
 
 4. **Run the Docker container**:
    - Once the Docker image is built, you can run it using:
