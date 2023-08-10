@@ -9,10 +9,12 @@
 
 1. **Write the C code**:
    - Use a text editor to create a new file named `server.c`.
-   - 
+   - [server](https://github.com/sirishacyd/container_build_pipeline/blob/main/server.c)
+
 
 2. **Create the Dockerfile**:
    - created another file named `Dockerfile`.
+   - - [Dokcer](https://github.com/sirishacyd/container_build_pipeline/blob/main/dockerfile)
    
 
 3. **Build the Docker image**:
