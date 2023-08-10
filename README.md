@@ -2,6 +2,8 @@
 
 ### Prerequisites:
 - Docker installed on your system.
+  
+  ![docker](screenshots/docker.png)
 
 ### Steps:
 
@@ -17,8 +19,9 @@
    - Build the Docker image with the following command:
      ```bash
      docker build -t simpleserver .
+ 
      ```
-![build](screenshots/build.jpeg)
+![build](screenshots/build.png)
 
 4. **Run the Docker container**:
    - Once the Docker image is built, you can run it using:
@@ -27,10 +30,11 @@
      ```
 5. **Access the server**:
    - Open a web browser and go to `http://localhost:8080`.
-  ![server](screenshots/server.jpeg)
+     
+  ![server](screenshots/server.png)
 
 6. **Cleanup (Optional)**:
-   - If you're done testing and want to remove the built Docker image, you can do so using:
+   - After testing and want to remove the built Docker image, use below command:
      ```bash
      docker rmi simpleserver
      ```
