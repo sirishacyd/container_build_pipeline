@@ -10,7 +10,7 @@
    - 
 
 2. **Create the Dockerfile**:
-   - In the same directory, create another file named `Dockerfile`.
+   - created another file named `Dockerfile`.
    
 
 3. **Build the Docker image**:
@@ -18,15 +18,16 @@
      ```bash
      docker build -t simpleserver .
      ```
+![build](screenshots/build.jpeg)
 
 4. **Run the Docker container**:
    - Once the Docker image is built, you can run it using:
      ```bash
      docker run --rm -p 8080:8080 simpleserver
      ```
-
 5. **Access the server**:
    - Open a web browser and go to `http://localhost:8080`.
+  ![server](screenshots/server.jpeg)
 
 6. **Cleanup (Optional)**:
    - If you're done testing and want to remove the built Docker image, you can do so using:
