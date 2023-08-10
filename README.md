@@ -14,7 +14,7 @@
 
 2. **Create the Dockerfile**:
    - created another file named `Dockerfile`.
-   - - [Dokcer](https://github.com/sirishacyd/container_build_pipeline/blob/main/dockerfile)
+   - - [Docker](https://github.com/sirishacyd/container_build_pipeline/blob/main/dockerfile)
    
 
 3. **Build the Docker image**:
